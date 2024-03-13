@@ -15,15 +15,7 @@ import org.springframework.web.reactive.config.EnableWebFlux;
 @EnableWebFlux
 public class WebfluxApplication {
 
-	@Bean
-	ConnectionFactoryInitializer initializer(ConnectionFactory connectionFactory) {
 
-		ConnectionFactoryInitializer initializer = new ConnectionFactoryInitializer();
-		initializer.setConnectionFactory(connectionFactory);
-		initializer.setDatabasePopulator(new ResourceDatabasePopulator(new ClassPathResource("schema.sql")));
-
-		return initializer;
-	}
 
 	public static void main(String[] args) {
 		SpringApplication.run(WebfluxApplication.class, args);
