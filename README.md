@@ -7,10 +7,10 @@ MySql 8
 
 Mave
 
-Git remote: git clone https://druped@bitbucket.org/druped/api_bonos_spring_boot.git
+Git remote: git clone https://github.com/PedroLuisPereira/api_webflux_spring_boot.git
 
 
-//Spring webflux -
+Spring webflux /
 https://www.cleveritgroup.com/blog/programacion-reactiva-spring-boot-parte-1
 
 https://www.cleveritgroup.com/blog/programacion-reactiva-con-spring-webflux-parte-2
